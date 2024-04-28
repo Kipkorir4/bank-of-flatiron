@@ -1,16 +1,17 @@
 import React from 'react';
-import '../styles/SortTransactions.css';
 
 const SortTransactions = ({ onSort }) => {
-  const handleSort = (criteria) => {
-    onSort(criteria);
+  const handleSortChange = (e) => {
+    onSort(e.target.value);
   };
 
   return (
-    <div>
+    <div className="sort-container">
       <h2>Sort Transactions</h2>
-      <button onClick={() => handleSort('category')}>Sort by Category</button>
-      <button onClick={() => handleSort('description')}>Sort by Description</button>
+      <select onChange={handleSortChange}>
+        <option value="category">Sort by Category</option>
+        <option value="description">Sort by Description</option>
+      </select>
     </div>
   );
 }
