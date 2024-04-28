@@ -1,0 +1,17 @@
+.sort-container {
+    margin-top: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+    padding: 8px 16px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #005A6E;
+  }
+  
