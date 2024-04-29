@@ -10,7 +10,7 @@ const TransactionList = ({ transactions }) => {
           <tr>
             <th>Date</th>
             <th>Description</th>
-            <th>Amount</th>
+            <th>Amount in KES</th>
             <th>Category</th>
           </tr>
         </thead>

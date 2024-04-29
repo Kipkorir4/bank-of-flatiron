@@ -7,10 +7,10 @@ const SortTransactions = ({ onSort }) => {
 
   return (
     <div className="sort-container">
-      <h2>Sort Transactions</h2>
+      <h2>Sort Transactions Alphabetically:</h2>
       <select onChange={handleSortChange}>
-        <option value="category">Sort by Category</option>
-        <option value="description">Sort by Description</option>
+        <option value="category">Sort alphabetically by Category</option>
+        <option value="description">Sort alphabetically by Description</option>
       </select>
     </div>
   );

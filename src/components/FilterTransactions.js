@@ -15,7 +15,7 @@ const FilterTransactions = ({ onFilter }) => {
       <input 
         id='filterbox'
         type="text" 
-        placeholder="Search your Recent Transactions by Description" 
+        placeholder="Search Recent Transactions by Description" 
         value={searchTerm} 
         onChange={handleSearch} 
       />
