@@ -9,13 +9,13 @@ function App() {
   const [transactions, setTransactions] = useState([
     { id: 1, date: '2024-04-01', description: 'Wi-Fi', amount: 500, category: 'Rent' },
     { id: 2, date: '2024-04-02', description: 'Unga', amount: 400, category: 'Shopping' },    
-    { id: 2, date: '2024-04-02', description: 'Chapo ya Mathee', amount: 500, category: 'Food' },    
-    { id: 2, date: '2024-04-02', description: 'Rent', amount: 6500, category: 'Rent' },    
-    { id: 2, date: '2024-04-02', description: 'Nyama', amount: 1200, category: 'Food' },    
-    { id: 2, date: '2024-04-02', description: 'Nyama Pro Max', amount: 3000, category: 'Shopping' },    
-    { id: 2, date: '2024-04-02', description: 'Mayai-Pasua', amount: 1100, category: 'Food' },    
-    { id: 2, date: '2024-04-02', description: 'Stima', amount: 400, category: 'Rent' },    
-    { id: 2, date: '2024-04-02', description: 'ETC', amount: 3000, category: 'Others' },    
+    { id: 3, date: '2024-04-02', description: 'Chapo ya Mathee', amount: 500, category: 'Food' },    
+    { id: 4, date: '2024-04-02', description: 'Rent', amount: 6500, category: 'Rent' },    
+    { id: 5, date: '2024-04-02', description: 'Nyama', amount: 1200, category: 'Food' },    
+    { id: 6, date: '2024-04-02', description: 'Nyama Pro Max', amount: 3000, category: 'Shopping' },    
+    { id: 7, date: '2024-04-02', description: 'Mayai-Pasua', amount: 1100, category: 'Food' },    
+    { id: 8, date: '2024-04-02', description: 'Stima', amount: 400, category: 'Rent' },    
+    { id: 9, date: '2024-04-02', description: 'ETC', amount: 3000, category: 'Others' },    
   ]);
 
   const [filteredTransactions, setFilteredTransactions] = useState(transactions);
