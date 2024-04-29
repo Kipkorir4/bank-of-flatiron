@@ -1,13 +1,21 @@
 import React, { useState } from 'react';
 import '../styles/AddTransactionForm.css';
+
 const AddTransactionForm = ({ onAddTransaction }) => {
   const [description, setDescription] = useState('');
   const [amount, setAmount] = useState('');
   const [category, setCategory] = useState('');
   const [date, setDate] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    if (!description.trim() || !amount.trim() || !category.trim() || !date.trim()) {
+      setErrorMessage('Fill in ALL the fields above to add a new transaction');
+      return;
+    }
+
     const newTransaction = {
       id: Math.random(),
       date,

@@ -1,49 +1,63 @@
-.form-container {
+/* .form-container {
     margin-top: 20px;
-    padding: 20px 0px 20px;
     
-  }
+  } */
   
  input{
     padding: 8px;
     margin-bottom: 20px;
-    margin-right: 25px;
+    margin-right: 20px;
+    height: 15px;
+    border-radius: 5px;
+    border-style: solid;
   }
 
   #descriptionfield {
     width: 210px;
+    height: 33px;
   }
 
   #categoryfield {
     width: 210px;
+    height: 33px;
   }
 
   #amountfield {
     width: 210px;
+    height: 13px;
   }
 
   #datefield {
     width: 210px;
+    height: 14px;
   }
 
   button {
     padding: 10px;
     width: 200px;
-    background-color: gray;
+    background-color: rgb(55, 0, 128);
     color: white;
     border: none;
     cursor: pointer;
     margin-left: 40%;
     margin-right: 50%;
+    border-radius: 20px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
     
   }
   
   button:hover {
-    background-color: rgb(94, 94, 94);
+    background-color:rgb(88, 18, 175);
   }
   
   
   #inputsBox{
     justify-content: center;
     margin-bottom: 20px;
+  }
+
+  form {
+    background-color: rgb(176, 190, 242);
   }
