@@ -29,11 +29,11 @@ const AddTransactionForm = ({ onAddTransaction }) => {
         <fieldset id='inputsBox'>
           <label>
             Date:
-            <input type="date" placeholder="Date" value={date} onChange={(e) => setDate(e.target.value)} />
+            <input id='datefield' type="date" placeholder="Date" value={date} onChange={(e) => setDate(e.target.value)} />
           </label>
           <input id = "descriptionfield" type="text" placeholder="Description" value={description} onChange={(e) => setDescription(e.target.value)} />
-          <input type="number" placeholder="Amount" value={amount} onChange={(e) => setAmount(e.target.value)} />
-          <input type="text" placeholder="Category" value={category} onChange={(e) => setCategory(e.target.value)} />
+          <input id='amountfield' type="number" placeholder="Amount" value={amount} onChange={(e) => setAmount(e.target.value)} />
+          <input id='categoryfield' type="text" placeholder="Category" value={category} onChange={(e) => setCategory(e.target.value)} />
           <button type="submit">Add Transaction</button>
         </fieldset>
       </form>
